@@ -68,11 +68,6 @@ python -m pytest
 
 # Run only unit tests
 python -m pytest tests/unit
-
-# Run integration tests (requires a running Minds server and valid API key)
-export MINDS_API_KEY=your_api_key
-export MCP_SERVER_URL=http://localhost:8000
-python -m pytest tests/integration
 ```
 
 ### Development Mode
