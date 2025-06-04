@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt -r requirements-dev.txt
 COPY . .
 
 # Expose the port the server runs on (default 8000)
-EXPOSE 8000
+EXPOSE 10000
 
 # Command to run the server
 CMD ["python", "-m", "server"]
